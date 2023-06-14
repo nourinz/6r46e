@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one_div{
+    margin-bottom:15px ;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+html{
+    background-color: rgba(0, 0, 0,211);
+}
+.on_nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.on_nav .logo{
+width: 80px;
+color: aliceblue;
+}
+.on_nav .on_ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:40px ;
+    text-decoration: none;
+}
+.on_nav .on_ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    
+}
+.to_div{
+    text-align: center;
+}
+.to_div h1{
+    font-size: 160px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.to_div a{
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.vid_on{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-bottom: 0px auto;
+}
+@media(min-aspect-ratio:16/9){
+    .vid_on{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .vid_on{
+        width:auto;
+        height: 100%;
+    }
+}
+.to_div h1:hover{
+-webkit-text-stroke:2px white ;
+color: transparent;
+}
+.on_nav .on_ul li a:hover{
+    color: brown;
+}
+.three_div h1{
+    margin-top: 70px;
+  
+    color: rgb(255, 255, 255);
+    cursor: alias;
+}
+.three_div h1 b{
+color: rgb(75, 76, 141);
+}
+.three_div #p{
+    color: white;
+    margin-top:40px ;
+    text-align: center;
+     line-height: 330%;
+}
+.three_div .img3{
+    margin-top: 300px;
+    
+}
+.three_div{
+    margin-top: 170px;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+   /* background-color: linear-gradient(rgba(0,0,0,5),rgba(0,0,0,5),ual(".\bb\img3.jpg"));
+    background-size:cover;
+    background-position: center;
+    height: 100vh;*/
+}
+.three_div .img3{
+    width: 290px;
+    margin-top:30px ;
+    float: right;
+    z-index: 0;
+}
+.img3{
+    filter: opacity(20%);
+}
+.ee hh{
+    color: aliceblue;
+    text-shadow: -1px 3px rgb(52, 59, 110) ;
+    margin-bottom: 70px;
+    margin-top: 15px;
+}
+/*.ons {
+    margin-top: 60px;
+    padding: 2rem 0;
+    background-color: rgba(49, 49, 67, 0.545)
+    
+}
+.ons .foor_div{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.ons .fif_div{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ons h3{
+    color: azure;
+    font-size: 1.6rem;
+    margin-bottom: 2rem ;
+}
+
+.ons .fif_div .div_dd{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem ;
+    margin: 1 rem;
+}
+.ons .foor_div .div_dd{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem ;
+    margin: 1 rem;
+}
+.ons .foor_div .div_dd .rrf{
+    color: white;
+    margin: 25px auto;
+}
+.ons .fif_div .div_dd .rrf{
+    color: white;
+    margin: 25px auto;
+}
+*/
+
+#hr{
+ color: rgb(52, 59, 110)80;
+}
+.img4{
+    z-index: 999;
+    margin-left: 70%;
+}
+.we{
+    display: inline;
+}
+.we{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+.fif{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    flex-wrap: wrap;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.foor_div{
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.we .div_dd{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem ;
+    margin: 1 rem;
+}
+.fif .div_dd{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem ;
+    margin: 1 rem;  
+}
+.job:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.joy:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.joi:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.fif .rrf{
+ margin-top: 23px;
+ color: white;
+}
+.fif .div_dd{
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    -webkit-imge-stroke:2px white ;
+   color: transparent;
+}
+.ss:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.ss1:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.ss2:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.job{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+ 
+}
+.joi{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.joy{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.ss{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.ss1{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.ss2{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.foor_div h1{
+ size: 9xp; 
+ color: aliceblue;
+ margin-left: 70%;
+}
+.foor_div{
+    margin-top: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 55px;
+}
+.fif .rrf{
+    color: aliceblue;
+}
